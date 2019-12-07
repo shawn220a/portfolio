@@ -10,6 +10,10 @@ header {
 
 h2 {
     float: left;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 15px;
+    margin: auto;
 }
 
 .navright {
@@ -29,14 +33,25 @@ li a {
     text-decoration: none;
 }
 
+hr {
+    margin: auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+}
+
 img {
+    display: block;
     height: auto;
     width: 200px;
     transform: rotate(90deg);
-    padding: 10px;
+    margin: 30px;
     float: left;
 }
 
 p {
-    display: inline;
+    /* display: inline; */
 }
+
