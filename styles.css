@@ -1,0 +1,18 @@
+h1 {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-align: right;
+}
