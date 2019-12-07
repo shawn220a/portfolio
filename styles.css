@@ -1,22 +1,42 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h1 {
+h2 {
     float: left;
 }
 
-ul {
+.navright {
     list-style-type: none;
     float: right;
+    margin: 21px;
 }
 
 li {
     display: inline;
+    text-align: center;
+    padding: 14px 16px;
 }
 
 li a {
     text-align: right;
     text-decoration: none;
-    
+}
+
+img {
+    height: auto;
+    width: 200px;
+    transform: rotate(90deg);
+    padding: 10px;
+    float: left;
+}
+
+p {
+    display: inline;
 }
